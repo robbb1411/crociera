@@ -2,72 +2,89 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Scelta Crociera ✈️</title>
+  <title>Crociera – Idee & Opzioni 🚢</title>
 
-  <!-- SEO + WhatsApp preview -->
-  <meta property="og:title" content="🚢 Scegliamo la crociera!" />
-  <meta property="og:description" content="Ragazzi, scegliamo insieme la prossima crociera: votate l’opzione migliore!" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" />
+  <!-- WhatsApp / OpenGraph preview -->
+  <meta property="og:title" content="🚢 Idee Crociera – Opzioni da valutare" />
+  <meta property="og:description" content="Raccolta di crociere da guardare insieme per capire itinerari, periodi e fasce di prezzo. Pianifichiamo il viaggio ✈️" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1502920917128-1aa500764cbd" />
   <meta property="og:type" content="website" />
 
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
+      font-family: Arial, sans-serif;
       background: #0b1320;
       color: white;
     }
 
     header {
+      padding: 45px 20px;
       text-align: center;
-      padding: 40px 20px;
       background: linear-gradient(135deg, #1e3c72, #2a5298);
     }
 
     header h1 {
       margin: 0;
-      font-size: 28px;
+      font-size: 30px;
     }
 
     header p {
       margin-top: 10px;
-      opacity: 0.8;
+      opacity: 0.85;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
     }
 
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      padding: 25px;
+      max-width: 1100px;
+      margin: auto;
     }
 
     .card {
       background: #111a2b;
       border-radius: 16px;
-      padding: 15px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-      transition: 0.3s;
+      padding: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+      transition: 0.25s ease;
+      border: 1px solid rgba(255,255,255,0.05);
     }
 
     .card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-4px);
     }
 
     .card h2 {
       font-size: 18px;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .card p {
       font-size: 14px;
       opacity: 0.8;
-      line-height: 1.4;
+      line-height: 1.5;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 12px;
+      background: rgba(255,255,255,0.08);
+      padding: 5px 10px;
+      border-radius: 20px;
+      opacity: 0.9;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 12px;
+      margin-top: 12px;
+      padding: 10px 14px;
       background: #2d7ff9;
       color: white;
       border-radius: 10px;
@@ -78,51 +95,70 @@
     .btn:hover {
       background: #1d5fd1;
     }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 13px;
+      opacity: 0.6;
+    }
   </style>
 </head>
 
 <body>
 
 <header>
-  <h1>🚢 Scegliamo la Crociera</h1>
-  <p>Votate quella che vi convince di più 👇</p>
+  <h1>🚢 Idee Crociera</h1>
+  <p>
+    Ho raccolto alcune opzioni da guardare insieme: servono solo per capire i possibili itinerari,
+    il periodo di partenza e la fascia di prezzo.
+    Poi scegliamo con calma quella che ci convince di più ✈️🌊
+  </p>
 </header>
 
 <div class="container">
 
   <div class="card">
     <h2>MSC Crociere – Ottobre 2026</h2>
-    <p>Offerte crociere con partenza Italia, Grecia e Mediterraneo.</p>
+    <p>Crociere nel Mediterraneo con varie partenze dall’Italia. Buona per farsi un’idea generale di prezzi e durata.</p>
+    <span class="tag">Mediterraneo • varie rotte</span><br>
     <a class="btn" href="https://www.msccrociere.it/offerte-crociera/crociere-autunno/ottobre?departureDateFrom=02%2F10%2F2026&departureDateTo=31%2F10%2F2026&passengers=2%7C0%7C0%7C0&embkPort=BRI%2CBDS" target="_blank">
-      Apri opzione
+      Vedi dettagli
     </a>
   </div>
 
   <div class="card">
-    <h2>MSC Divina – Grecia & Adriatico</h2>
-    <p>Da Civitavecchia, itinerario Grecia e Turchia.</p>
+    <h2>MSC Divina – Grecia & Turchia</h2>
+    <p>Itinerario classico tra isole greche e Turchia, con partenza da Civitavecchia.</p>
+    <span class="tag">Grecia • Turchia • Adriatico</span><br>
     <a class="btn" href="https://www.logitravel.it/crociere/crociera/isole-greche-ed-adriatico/da-civitavecchia/msc-divina/grecia-turchia-italia-842886/" target="_blank">
-      Apri opzione
+      Vedi dettagli
     </a>
   </div>
 
   <div class="card">
     <h2>Costa Deliziosa – Bari</h2>
-    <p>Crociera con partenza da Bari, ottobre 2026.</p>
+    <p>Crociera con partenza da Bari. Comoda per noi e interessante per confrontare durata e costi.</p>
+    <span class="tag">Partenza Bari</span><br>
     <a class="btn" href="http://italvacanze.net/costa-deliziosa-da-bari-4-ottobre-2026/" target="_blank">
-      Apri opzione
+      Vedi dettagli
     </a>
   </div>
 
   <div class="card">
-    <h2>Idea social / extra</h2>
-    <p>Link Facebook con ispirazione e idee crociere.</p>
+    <h2>Ispirazione social</h2>
+    <p>Idea trovata online per dare un’occhiata a possibili combinazioni e spunti di viaggio.</p>
+    <span class="tag">Extra • idee</span><br>
     <a class="btn" href="https://www.facebook.com/story.php?story_fbid=1391835286302618&id=100064284805298&rdid=6udHBMp5lsGe2Tcr#" target="_blank">
-      Apri opzione
+      Vedi post
     </a>
   </div>
 
 </div>
+
+<footer>
+  Pianificazione viaggio ✈️ — solo per confrontare opzioni, itinerari e prezzi
+</footer>
 
 </body>
 </html>
